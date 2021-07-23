@@ -4,7 +4,7 @@ SEP FILE: https://mega.nz/file/Vhw0xZ5Q#Vq_4VWsR--9iGFrRcS-5VLFHug31oWBiqkLBjd27
  - Replace the existing SEP.cfg file with the new one in \AppData\Roaming\PopstarDevs\2Take1Menu\cfg
 
 PREMADE PROTEX FILE (STILL REQUIRES MANUAL INSTALLATION OF THE SEP FILE): https://mega.nz/file/55xWTRpI#8kZQeDZit6cPzI0NAbakB8LXFZdJUkLI6DzZDVsaaXc
-- Place into \AppData\Roaming\PopstarDevs\2Take1Menu\profiles then go to Local > Settings > Profiles > Load
+ - Place into \AppData\Roaming\PopstarDevs\2Take1Menu\profiles then go to Local > Settings > Profiles > Load
 
 ## Main:
  - Disable Background Script
