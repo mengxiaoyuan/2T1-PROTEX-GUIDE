@@ -1,0 +1,99 @@
+This is the 2Take1 protections guide
+
+SEP FILE: https://mega.nz/file/Vhw0xZ5Q#Vq_4VWsR--9iGFrRcS-5VLFHug31oWBiqkLBjd275Lw
+ - Replace the existing SEP.cfg file with the new one in \AppData\Roaming\PopstarDevs\2Take1Menu\cfg
+
+PREMADE PROTEX FILE (STILL REQUIRES MANUAL INSTALLATION OF THE SEP FILE): https://mega.nz/file/55xWTRpI#8kZQeDZit6cPzI0NAbakB8LXFZdJUkLI6DzZDVsaaXc
+- Place into \AppData\Roaming\PopstarDevs\2Take1Menu\profiles then go to Local > Settings > Profiles > Load
+
+## Main:
+ - Disable Background Script
+ - Crash (Block & Notify)
+ - Block Script Event Kick
+ - Block Reports
+ - Block Collectible Drops (Block & Notify)
+ - Block Money Drops (Block & Notify
+ - Block Attachments (Block & Notify)
+ - Block Cage Objects (Block & Notify)
+ - Block Clones (Block)
+ - Block Model Changes (Block & Notify)
+ - Block Spectate Detection
+ - Notify When Someone Is Spectating Me
+ - Notify When Modder Is Detected
+ - Notify When Someone Drops Crash
+ - Enforce ASCII Player Names
+
+## Block From Modders
+ - Everything
+
+## Big Vehicles
+ - Enable (Block & Notify)
+ - Maximum Vehicles = 5
+ - Radius = 500
+
+## Ped Throttling
+ - Enable
+ - Cleanup
+ - Interval (Seconds) = 5
+ - Limit = 5
+ - Radius = 25.00
+
+## Rockstar Admin
+ - By SCID (Notify)
+ - By Dev Flag (Notify)
+ - By IP (Notify)
+
+## Modder Detection
+TURN OFF WHITELIST FRIENDS IN YOUR DUMB CRASH WARS
+ - Turn off "Disable Area Local Object Detection"
+ - Detect SCID Spoof
+ - Detect Altered Host Token
+ - Detect Player Model
+ - Detect Super Jump
+ - Detect Towtrucks
+ - SE Spam (10 - 15)
+
+## Net Hooks
+Script Event Log (Optional)
+Net Event Log (Optional)
+
+## Script Events
+ - Kick (Block & Notify)
+ - Invalid Apartment Invite (Block & Notify)
+ - Vehicle Kick (Block & Notify)
+ - Force Off radar (Block & Notify)
+ - Casino Cutscene (Block & Notify)
+ - CEO Kick (Block & Notify)
+ - Send To Job (Block & Notify)
+ - Spectate Message (Block & Notify)
+ - Camera Manipulation (Block)
+ - Sound Spam (Block & Notify)
+ - Transaction Error (Block & Notify)
+ - Apartment Invite (Block & Notify)
+ - Force Bribe Authorities (Block & Notify)
+ - Insurance Fraud (Block & Notify)
+ - Force Into Deathmatch (Block & Notify)
+ - Indirect SH Kick (Block & Notify)
+ - General Bad Events (Block & Notify)
+ - Crash (Block & Notify)
+ - Dodgy Events (Optional)
+
+## Network Events
+ - NET_CLEAR_PED_TASKS (Block & Notify)
+ - NET_PTFX (Block & Notify)
+ - FIRE (Block & Notify)
+ - EXPLOSION (Block & Notify)
+ - REQUEST_CONTROL (Block & Notify)
+ - GIVE WEAPON (Block & Notify)
+ - REMOVE_WEAPON (Block & Notify)
+ - REMOVE_ALL_WEAPONS (Block & Notify)
+ - ALTER_WANTED_LEVEL (Block & Notify)
+ - RAGDOLL_REQUEST (Block & Notify)
+ - REQUEST_PHONE_EXPLOSION (Block & Notify)
+
+## Network Event Notifies
+ - KICK_VOTES (Notify)
+ - GIVE_PICKUP_REWARDS (Notify)
+ - NET_CHECK_EXE_SIZE (Notify)
+ - NET_CHECK_CODES_CRC (Notify)
+ - REPORT_MYSELF (Notify)
