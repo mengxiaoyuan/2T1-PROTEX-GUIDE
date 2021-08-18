@@ -11,6 +11,7 @@ PREMADE PROTEX FILE (STILL REQUIRES MANUAL INSTALLATION OF THE SEP FILE): https:
  - Crash (Block & Notify)
  - Block Script Event Kick
  - Block Reports
+ - Block Attach Clusters
  - Block Collectible Drops (Block & Notify)
  - Block Money Drops (Block & Notify
  - Block Attachments (Block & Notify)
@@ -36,7 +37,14 @@ PREMADE PROTEX FILE (STILL REQUIRES MANUAL INSTALLATION OF THE SEP FILE): https:
  - Cleanup
  - Interval (Seconds) = 5
  - Limit = 5
- - Radius = 25.00
+ - Radius = 50.00
+
+## Vehicle Throttling
+ - Enable
+ - Cleanup
+ - Interval (Seconds) = 5
+ - Limit = 7
+ - Radius = 50.00
 
 ## Rockstar Admin
  - By SCID (Notify)
